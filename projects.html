@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Rama Chandra Baddireddy</title>
+</head>
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="index.html">Rama Chandra Baddireddy</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li> 
+      </ul>
+      <div class="theme-toggle" onclick="toggleTheme()">
+        <input type="checkbox" id="theme-switch" />
+        <label for="theme-switch" class="toggle-btn"></label>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="section">
+    <div class="section__container">
+      <div class="content">
+        
+        <div class="project">
+          <p class="subtitle">Projects</p>
+          <h3>Capgemini Training: Pharmacy Management System</h3>
+          <p class="project-description">Developed a Pharmacy Management System using ASP.NET Core for the backend, Angular for the front end, and SQL Server for database management. Improved pharmaceutical inventory tracking, order processing, and overall operational efficiency.</p>
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pFTL5cxal7g?si=ZSlHIfm2HtEs4aBG" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="project">
+          <h3>Undergraduate Major Project: Institute Management System</h3>
+          <p class="project-description">Designed and implemented a robust solution using ASP.NET Core for backend services, Angular for a responsive user interface, and SQL Server for secure data management. Streamlined administrative tasks and enhanced data accessibility for academic institutions.</p>
+        </div>
+        <div class="project">
+          <h3>Undergraduate Project: Sign Language Recognition</h3>
+          <p class="project-description">Developed an innovative project, 'Sign Language Recognition Using Hand Gestures,' during my undergraduate studies. Utilized Python, machine learning algorithms, and the Spyder IDE to effectively translate hand gestures into spoken language, enhancing accessibility for the deaf and hard-of-hearing community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Rama Chandra Baddireddy</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+</body>
+</html>
